@@ -1,0 +1,52 @@
+.Card {
+  width: 93.6rem;
+  height: 17.3rem;
+  border-radius: 0.8rem;
+  background: #ffffff;
+  box-shadow: #00000014 0px 2px 6px 0px;
+
+  &__action {
+    border-top: 1px solid #eeeeee;
+    padding: 1.5rem 2.4rem 2.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__right {
+      display: flex;
+      margin-right: 4px;
+    }
+  }
+}
+.Header {
+  padding: 2.4rem 3.6rem 0;
+  margin-bottom: 2.4rem;
+  &__user {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    line-height: 2.4rem;
+    &__mail {
+      font-size: 1.4rem;
+      font-weight: 400;
+      opacity: 0.5;
+      &__name {
+        font-weight: 600;
+        opacity: 1 !important;
+      }
+    }
+    &__date {
+      font-size: 1.4rem;
+      font-weight: 600;
+    }
+  }
+  &__description {
+    margin-top: 0.4rem;
+    p {
+      color: $font-black;
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+    }
+  }
+}

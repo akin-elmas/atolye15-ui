@@ -1,0 +1,80 @@
+@import "../../styles/colors";
+
+.button {
+  font-family: "SF Pro Display", sans-serif;
+  font-weight: 500;
+  line-height: 2.5rem;
+  font-size: 1.6rem;
+  width: 9.6rem;
+  height: 4.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.primary {
+  border: none;
+  background: $btn-primary;
+  color: $font-white;
+}
+
+.primary:hover {
+  background: $btn-primary-lg;
+}
+
+.primary:focus {
+  background: $btn-primary-dk;
+}
+
+.secondary {
+  background: none;
+  border: 1 px solid $btn-secondary !important;
+  color: $font-black;
+}
+
+.secondary:hover {
+  background: $btn-secondary-lg;
+}
+
+.secondary:focus {
+  background: $btn-secondary-dk;
+}
+
+.success {
+  border: none;
+  background: $btn-success;
+  color: $font-white;
+}
+.success:hover {
+  background: $btn-success-lg;
+}
+
+.success:focus {
+  background: $btn-success-dk;
+}
+
+.accepted {
+  background: none;
+  color: $btn-success;
+}
+.underline {
+  font-size: 1.6rem;
+  font-weight: 400;
+  background: none;
+  border: none;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  color: $font-gray;
+  margin-left: -1.3rem;
+}
+.empty {
+  margin-right: 4rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  background: none;
+  border: none;
+  color: $font-gray;
+}

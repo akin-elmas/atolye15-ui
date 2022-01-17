@@ -1,0 +1,94 @@
+@import "../../styles/colors";
+@import "../../styles/base";
+@import "../../styles/typograpghy";
+
+.Card {
+  width: 93.6rem;
+  height: 17.3rem;
+  border-radius: 0.8rem;
+  background: #fff;
+  box-shadow: #00000014 0px 2px 6px 0px;
+  padding: 0 0 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.Card__show {
+  height: 33.7rem !important;
+}
+.Card__action {
+  height: 7.2rem;
+  border-top: 1px solid #eee;
+  padding: 1.5rem 2.4rem 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Card__action__show {
+  transform: translateY(24px);
+}
+.Card__action__right {
+  display: flex;
+  margin-right: 4px;
+}
+
+.Card__content {
+  display: none;
+  position: relative;
+  padding: 2.4rem 3.6rem 0;
+}
+
+.Card__content__show:after {
+  position: absolute;
+  content: "";
+  border-bottom: 1px solid #eeee;
+  width: 92%;
+  transform: translateX(-50%);
+  top: 0;
+  left: 50%;
+}
+.Card__content__show {
+  display: block;
+}
+
+.Card__content h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.4rem;
+  color: #666666;
+  margin-bottom: 0.8rem;
+}
+.Card__content p {
+  margin-bottom: 2.4rem;
+}
+.Header {
+  padding: 2.4rem 3.6rem 0;
+  margin-bottom: 2.4rem;
+}
+.Header__user {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  line-height: 2.4rem;
+}
+.Header__user__mail {
+  font-size: 1.4rem;
+  font-weight: 400;
+  opacity: 0.5;
+}
+.Header__user__mail__name {
+  font-weight: 600;
+  opacity: 1 !important;
+}
+.Header__user__date {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.Header__description {
+  margin-top: 0.4rem;
+}
+.Header__description p {
+  color: $font-black;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
